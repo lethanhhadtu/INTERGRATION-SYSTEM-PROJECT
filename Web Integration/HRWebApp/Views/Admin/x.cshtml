@@ -1,0 +1,70 @@
+﻿@model IEnumerable<HRWebApp.Models.Web.TotalEarningModel>
+
+@{
+    ViewBag.Title = "x";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>x</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Employee_ID1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Shareholder_Status1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ethnicity1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hire_Date1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Termination_Date1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee_ID1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Shareholder_Status1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ethnicity1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hire_Date1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Termination_Date1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

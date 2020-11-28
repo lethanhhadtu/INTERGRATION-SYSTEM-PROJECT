@@ -1,0 +1,56 @@
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.pdb
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csprojResolveAssemblyReference.cache
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\HRWebApp.pdb
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\BouncyCastle.Crypto.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Google.Protobuf.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Microsoft.Web.Infrastructure.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\MySql.Data.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\NuGet.Frameworks.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Renci.SshNet.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Ubiety.Dns.Core.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Google.Protobuf.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\MySql.Data.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\NuGet.Frameworks.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\Renci.SshNet.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.CopyComplete
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
+G:\Class\Intergration System\5 - System Integration Case Study-20200325T040621Z-001\5 - System Integration Case Study\HRWebApp\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csprojAssemblyReference.cache

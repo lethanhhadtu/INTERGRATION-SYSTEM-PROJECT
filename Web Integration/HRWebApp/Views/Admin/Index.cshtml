@@ -1,0 +1,135 @@
+﻿@model IEnumerable<HRWebApp.Models.Web.TotalEarningModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<h1>Dashboard</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Dashboard</li>
+</ol>
+<div class="row">
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-primary text-white mb-4">
+            <div class="card-body">Total Earnings</div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="#">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-warning text-white mb-4">
+            <div class="card-body">Vacation Days</div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="#">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-success text-white mb-4">
+            <div class="card-body">Everage Benefits</div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="#">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-danger text-white mb-4">
+            <div class="card-body">Employee</div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="#">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-6">
+        <div class="card mb-4">
+            <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Area Chart</div>
+            <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+        </div>
+    </div>
+    <div class="col-xl-6">
+        <div class="card mb-4">
+            <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Bar Chart</div>
+            <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+        </div>
+    </div>
+</div>
+<div class="card mb-4">
+    <div class="card-header"><i class="fas fa-table mr-1"></i>DataTable</div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Shareholder</th>
+                        <th>Gender</th>
+                        <th>Ethnicity</th>
+                        <th>Department</th>
+                        <th>Part-time</th>
+                        <th>Full-time</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Shareholder</th>
+                        <th>Gender</th>
+                        <th>Ethnicity</th>
+                        <th>Part-time</th>
+                        <th>Full-time</th>
+                        <th>Department</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            @*<td>
+                                 @Html.DisplayFor(modelItem => item.Employee_ID1)
+                                </td>*@
+                            @if (item.Shareholder_Status1 == 1)
+                            {
+                                <td>Google Company</td>
+                            }
+
+                            @if (item.Shareholder_Status1 == 0)
+                            {
+                                <td>Microsoft Company</td>
+                            }
+
+                            @if (item.Gender1 == 0)
+                            {
+                                <td>Nữ</td>
+                            }
+
+                            @if (item.Gender1 == 1)
+                            {
+                                <td>Nam</td>
+                            }
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ethnicity1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Department1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Hire_Date1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Termination_Date1)
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

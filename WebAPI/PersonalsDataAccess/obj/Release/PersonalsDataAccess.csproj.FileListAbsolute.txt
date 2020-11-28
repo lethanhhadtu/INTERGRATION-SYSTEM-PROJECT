@@ -1,0 +1,11 @@
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\PersonalsDataAccess.dll.config
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\PersonalsDataAccess.dll
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\PersonalsDataAccess.pdb
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\EntityFramework.dll
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\EntityFramework.xml
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\obj\Release\PersonalsDataAccess.csprojAssemblyReference.cache
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\obj\Release\PersonalsDataAccess.csproj.CopyComplete
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\obj\Release\PersonalsDataAccess.dll
+C:\Users\Thuyen Pham\source\repos\HRapi\HRapii\PersonalsDataAccess\obj\Release\PersonalsDataAccess.pdb

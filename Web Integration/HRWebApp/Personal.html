@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulPersonals = $('ulPersonals');
+            $('#btn').click(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: 'https://localhost:44338/api/Personals',
+                    dataType: 'json',
+                    success: function (data) {
+                        ulPersonals.empty();
+                        $.each(data, function (index, val) {
+                            var fullname = val.First_Name + " " + val.Last_Name;
+                            ulPersonals.append('<li>' + fullname + '</li>');
+                        });
+                    }
+                });
+
+            });
+            $('#btnClear').click(function () {
+                ulPersonals.empty();
+            });
+        });
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" value="Get all personals" />
+
+    <input id="btnClear" type="button" values="Clear" />
+
+    <ul id="ulPersonals"></ul>
+
+
+</body>
+</html>

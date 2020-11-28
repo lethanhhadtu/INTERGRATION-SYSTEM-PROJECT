@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JobHistoryModelStoreContainer" CdmEntityContainer="JobHistoryEntities">
+    <EntitySetMapping Name="Job_History">
+      <EntityTypeMapping TypeName="JobHistoryModel.Job_History">
+        <MappingFragment StoreEntitySet="Job_History">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Employee_ID" ColumnName="Employee_ID" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Division" ColumnName="Division" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start_Date" />
+          <ScalarProperty Name="End_Date" ColumnName="End_Date" />
+          <ScalarProperty Name="Job_Title" ColumnName="Job_Title" />
+          <ScalarProperty Name="Supervisor" ColumnName="Supervisor" />
+          <ScalarProperty Name="Job_Category" ColumnName="Job_Category" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Departmen_Code" ColumnName="Departmen_Code" />
+          <ScalarProperty Name="Salary_Type" ColumnName="Salary_Type" />
+          <ScalarProperty Name="Pay_Period" ColumnName="Pay_Period" />
+          <ScalarProperty Name="Hours_per_Week" ColumnName="Hours_per_Week" />
+          <ScalarProperty Name="Hazardous_Training" ColumnName="Hazardous_Training" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="payrollModelStoreContainer" CdmEntityContainer="EmployeeDataModel">
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="payrollModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="Employee_Number" ColumnName="Employee_Number" />
+          <ScalarProperty Name="idEmployee" ColumnName="idEmployee" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="Pay_Rate" ColumnName="Pay_Rate" />
+          <ScalarProperty Name="PayRates_id" ColumnName="PayRates_id" />
+          <ScalarProperty Name="Vacation_Days" ColumnName="Vacation_Days" />
+          <ScalarProperty Name="Paid_To_Date" ColumnName="Paid_To_Date" />
+          <ScalarProperty Name="Paid_Last_Year" ColumnName="Paid_Last_Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

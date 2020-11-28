@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79017345-0F26-4DB2-98EA-3043B57D15BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PersonalsDataAccess</RootNamespace>
+    <AssemblyName>PersonalsDataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BenefitPlansDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BenefitPlansDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BenefitPlansDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BenefitPlansDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BenefitPlansDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BenefitPlansDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Benefit_Plans.cs">
+      <DependentUpon>BenefitPlansDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobHistoryDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobHistoryDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobHistoryDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobHistoryDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobHistoryDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobHistoryDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Job_History.cs">
+      <DependentUpon>JobHistoryDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.cs">
+      <DependentUpon>PersonalsDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalsDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalsDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalsDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalsDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalsDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalsDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="PersonalsDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PersonalsDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="BenefitPlansDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BenefitPlansDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BenefitPlansDataModel.edmx.diagram">
+      <DependentUpon>BenefitPlansDataModel.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="JobHistoryDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>JobHistoryDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="JobHistoryDataModel.edmx.diagram">
+      <DependentUpon>JobHistoryDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PersonalsDataModel.edmx.diagram">
+      <DependentUpon>PersonalsDataModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BenefitPlansDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BenefitPlansDataModel.edmx</DependentUpon>
+      <LastGenOutput>BenefitPlansDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="BenefitPlansDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BenefitPlansDataModel.edmx</DependentUpon>
+      <LastGenOutput>BenefitPlansDataModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="JobHistoryDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>JobHistoryDataModel.edmx</DependentUpon>
+      <LastGenOutput>JobHistoryDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="JobHistoryDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>JobHistoryDataModel.edmx</DependentUpon>
+      <LastGenOutput>JobHistoryDataModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="PersonalsDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PersonalsDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>PersonalsDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="PersonalsDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PersonalsDataModel.edmx</DependentUpon>
+      <LastGenOutput>PersonalsDataModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
